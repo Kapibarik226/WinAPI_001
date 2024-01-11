@@ -1,0 +1,41 @@
+
+
+xMENU MENU
+
+{
+
+POPUP "&Options"
+{
+  MENUITEM "&UniMons",         101
+  MENUITEM "&AI_Colobok",      102
+  MENUITEM SEPARATOR 
+  MENUITEM "&Eng / Rus ",      103
+  POPUP "&File..." 
+  {
+	 MENUITEM "&Open",         104		
+	 MENUITEM "&Save",         105
+  }
+  
+  MENUITEM "&-- 106 ",         106
+  
+  MENUITEM SEPARATOR
+  MENUITEM "&End",             108
+}
+MENUITEM "&About",             109
+MENUITEM SEPARATOR
+POPUP"&Print"           
+{
+	POPUP "&Lines" 
+	{
+		MENUITEM "&Green",      110
+		MENUITEM "&Red",        111
+		MENUITEM "&Purple",     112
+		MENUITEM "&Blue",       113
+		MENUITEM "&White",      114
+		
+	}            
+	MENUITEM "&Text",          115
+}
+}
+
+MYICON ICON ico.ico
